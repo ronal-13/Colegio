@@ -1,0 +1,603 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-brand img {
+    position: relative;
+    cursor: pointer;
+    left: 15px;
+    margin: 0;
+    height: auto;
+    width: 65%;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin: 0 15px;
+}
+
+.navbar-nav a {
+    color: #007bff;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: none;
+}
+
+.navbar-button {
+    position: relative;
+    right: 35px;
+    background-color: #007bff;
+    margin-left: -200px;
+    border-radius: 20px;
+    border-color: #cccccc00;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*====================================================================*/
+
+header {
+    background-color: #00a8c5;
+    max-height: 1200px;
+    height: 310px;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header p {
+    width: 410px;
+    margin: 60px 80px;
+    margin-left: 120px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.bton {
+    background-color: #ffffff;
+    color: #007bff;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: medium;
+    width: 15%;
+    border: none;
+    padding: 20px 10px;
+    position: relative;
+    top: -130px;
+    cursor: pointer;
+    right: -100px;
+}
+
+header img {
+    height: auto;
+    width: 40%;
+    margin-top: -260px;
+    margin-left: 500px;
+}
+
+/*==============================================*/
+.pilares-educativos {
+    padding: 20px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.titulo{
+    margin-top: -50px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 250px;
+    font-size: 20px;
+    width: 800px;
+}
+
+.llama{
+    color: #ffe031;
+}
+
+.nin{
+    position: relative;
+    height: auto;
+    width: 150px;
+    top: 58px;
+    left: -20px;
+}
+
+.pilares-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 160px;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre los pilares */
+}
+
+.pilar0{
+    background-color: #3676ff;
+    color: white;
+}
+
+.pilar1{
+    background-color: #36ff40;
+} 
+
+.pilar2{
+    background-color: #ffbf36;
+}
+
+.pilar3{
+    background-color: #daff36;
+}
+
+.pilar0, .pilar1, .pilar2, .pilar3 {
+    color: white;
+    flex: 2 2 calc(35% - 50px); /* 4 columnas con espacio entre ellas */
+    padding: 20px 60px;
+    margin-left: 50px;
+    height: 250px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+}
+
+.ico{
+    height: auto;
+    width: 65px;
+    margin-top: 20px;
+}
+/*==================================================*/
+.niveles{
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    border-top: 1px solid rgb(175, 175, 175);
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    margin: 80px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.sut{
+    text-align: center;
+    font-size: 16px;
+}
+
+.azul{
+    color: #1e61a8;
+}
+
+.niv{
+    height: auto;
+    width: 60%;
+}
+
+.cont p{
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 15px 85px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: #ffbf36;
+}
+
+.btn2{
+    background-color: #6fff36;
+}
+
+.btn3{
+    background-color: #1e61a8;
+}
+/*==================================================*/
+.footer {
+    background-color: #1e61a8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /*position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+.footer-grid {
+    display: flex;
+    gap: 0px;
+}
+
+.te{
+    font-size: 16px;
+}
+
+.footer-column {
+    border-top: 1px solid rgb(163, 163, 163);
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+}
+/*==================================================*/
+
+/*===================about.html=================*/
+.nosotros {
+    padding: 10px;
+    height: auto; /* Cambia a auto para que se ajuste al contenido */
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.conte {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    margin: 30px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.conoce {
+    text-align: center;
+    font-size: 40px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nivel {
+    flex: 1; /* Hace que cada columna ocupe el mismo espacio */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto */
+    margin: 10px;
+}
+
+.elegir {
+    cursor: pointer;
+    height: auto;
+    border-radius: 10px;
+    width: 80%; 
+    margin-bottom: -10px; 
+}
+
+.tit1 {
+    position: relative;
+    right: 80px;
+    color: #1e61a8;
+    font-size: 22px;
+    margin-bottom: -20px; /* Espacio entre el título y el párrafo */
+}
+
+.tit2 {
+    position: relative;
+    right: 62px;
+    color: #1e61a8;
+    font-size: 22px;
+    margin-bottom: -20px; /* Espacio entre el título y el párrafo */
+}
+
+.tit3 {
+    position: relative;
+    right: 32px;
+    color: #1e61a8;
+    font-size: 22px;
+    margin-bottom: -20px; /* Espacio entre el título y el párrafo */
+}
+
+.op {
+    width: 80%; /* Ajusta el ancho del párrafo */
+    padding: 10px 0px;
+    margin: 15px 0px;
+    color: rgb(148, 148, 148);
+    text-align: left;
+}
+/*=================================================================================*/
+.egresados {
+    padding: 20px;
+    background-color: #3dec95;
+    text-align: center;
+}
+
+.titulo-egresados {
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedor-egresados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video-egresado, .estadisticas-egresados, .testimonio-egresado {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.estadisticas-egresados{
+    margin-top: -200px;
+    position: relative;
+    right: 120px;
+}
+
+.numero-egresados {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: -170%;
+}
+
+.texto-egresados {
+    position: relative;
+    top: -55px;
+    right: -157%;
+    font-size: 15px;
+    width: 30%;
+    text-align: left;
+    color: #ffffff;
+}
+
+.testimonio-egresado{
+    position: relative;
+    max-width: 370px;
+    margin-top: 90px;
+    right: 120px;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.cita-egresado {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.nombre-testimonio {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 65px;
+}
+
+.lugar-testimonio {
+    font-size: 16px;
+    color: #777;
+    margin-left: 65px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.egresado {
+    position: relative;
+    cursor: pointer;
+}
+
+.video-egresado{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+/*==================================================*/
+
+/*===================contact.html=================*/
+.contacto {
+    padding: 0px;
+    background-color: #f9f9f9;
+    text-align: center;
+    height: 650px;
+    font-family: Arial, sans-serif;
+}
+
+.fondo{
+    position: relative;
+    background-color: #8DBA3B;
+    color: #8DBA3B;
+    height: 610px;
+    top: -654px;
+    width: 15px;
+    padding: 20px 20px;
+}
+
+.form1{
+    position: relative;
+    margin-right: 70%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.descripcion-contacto {
+    position: relative;
+    margin-top: -92%;
+    margin-left: 27.5%;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.color{
+    color:#fcb722;
+    font-weight: bold;
+}
+
+.formulario-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.subtitulo-formulario {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 370px;
+    margin-top: -15px;
+}
+
+.campo-formulario {
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    left: 150px;
+}
+
+.campo-formulario label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.terminos-condiciones {
+    position: relative;
+    left: 220px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.terminos-condiciones label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contenedor-botones {
+    display: flex; /* Alinea los botones en una fila */
+    gap: 10px; /* Espacio entre los botones */
+    justify-content: flex-start; /* Alinea los botones a la izquierda */
+    position: relative;
+    top: 10px;
+    left: 260px;
+}
+
+.boton-enviar, .boton-actualizar, .boton-eliminar {
+    padding: 10px 10px;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.boton-enviar{
+    background-color: #35af24;
+}
+
+.boton-actualizar{
+    background-color: #0056b3;
+}
+
+.boton-eliminar{
+    background-color: red;
+}
+
+.boton-enviar:hover {
+    background-color: #0056b3;
+}
+
+/*========================================================*/
+.tabla-articulos {
+    padding: 20px;
+    background-color: #8DBA3B;
+    font-family: Arial, sans-serif;
+}
+
+.regis{
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tabla th, .tabla td {
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla td{
+    border-top: 2px solid black;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+
+.tabla th {
+    text-align: center;
+    background-color: #1e61a8;
+    border-right: 2px solid black;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabla input[type="checkbox"] {
+    cursor: pointer;
+}

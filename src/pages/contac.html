@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innova Schools</title>
+    <link rel="icon" type="image/jpg" href="../images/log.jpg">
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="../../public/index.html">
+                <img src="../images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <ul class="navbar-nav">
+            <li><a href="/public/index.html">Educación 360°</a></li>
+            <li><a href="../pages/about.html">Egresados</a></li>
+            <li><a href="../pages/about.html">¿Porque Nosotros?</a></li> <!--llamar a otro-->
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="navbar-button">Solicita información</button>
+    </nav>
+<!--=======================================================================================================================-->
+    <section id="contacto" class="contacto">
+        <img class="form1" src="../images/form1.png" alt="">
+        <div class="fondo">fondo</div>
+        <p class="descripcion-contacto">Si quieres estudiar algun Idioma,<strongc class="color"><br>déjanos tus datos y te contactaremos en las proximas horas</strongcl></p>
+        
+        <form class="formulario-contacto">
+            <h2 class="subtitulo-formulario">Completar el formulario</h2>
+            
+            <div class="campo-formulario">
+                <label for="nombres">NOMBRES</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+
+            <div class="campo-formulario">
+                <label for="lenguage">LENGUAGE</label>
+                <input type="text" id="lenguage" name="lenguage" required>
+            </div>
+            
+            <div class="campo-formulario">
+                <label for="correo">CORREO ELECTRÓNICO</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            
+            <div class="campo-formulario">
+                <label for="telefono">TELÉFONO</label>
+                <input type="text" id="telefono" name="telefono" required>
+            </div>
+            
+            <div class="terminos-condiciones">
+                <label>
+                    <input type="checkbox" name="acepto-actividades" required>
+                    Acepto las políticas de actividad
+                </label>
+                <label>
+                    <input type="checkbox" name="acepto-informacion">
+                    Acepto recibir información sobre eventos y programas de Innova Schools para facilidades adicionales. Puedo darme de baja en cualquier momento.
+                </label>
+            </div>
+            <div class="contenedor-botones">
+                <button type="submit" class="boton-enviar">Enviar datos</button>
+                <button type="submit" class="boton-actualizar">Actualizar datos</button>
+                <button type="submit" class="boton-eliminar">Eliminar datos</button>
+            </div>
+        </form>
+    </section>
+<!--=======================================================================================================================-->
+    <section id="tabla-articulos" class="tabla-articulos">
+        <div class="regis">
+            <p>Alumnos registrados para las clases de Idiomas Internacionales</p>
+        </div>
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NOMBRES</th>
+                    <th>LENGUAGE</th>
+                    <th>CELULAR</th>
+                    <th>CORREO</th>
+                    <th>FECHA</th>
+                    <th>SELECCIONAR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12345678</td>
+                    <td>Título completo de cada artículo</td>
+                    <td>PUBLICADO</td>
+                    <td>18/12/2021</td>
+                    <td>ENTREVISTA</td>
+                    <td>Artículo</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>12345678</td>
+                    <td>Título completo de cada artículo</td>
+                    <td>PUBLICADO</td>
+                    <td>07/01/2022</td>
+                    <td>MÉTRICAS</td>
+                    <td>Vídeo</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>12345678</td>
+                    <td>Título completo de cada artículo</td>
+                    <td>COMPLETADO</td>
+                    <td>14/01/2022</td>
+                    <td>DISEÑO UI</td>
+                    <td>Artículo</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>12345678</td>
+                    <td>Título completo de cada artículo</td>
+                    <td>BORRADOR</td>
+                    <td>22/01/2022</td>
+                    <td>HERRAMIENTAS</td>
+                    <td>Artículo</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>12345678</td>
+                    <td>Título completo de cada artículo</td>
+                    <td>BLOQUEADO</td>
+                    <td>29/01/2022</td>
+                    <td>ENTREVISTA</td>
+                    <td>Vídeo</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+<!--=======================================================================================================================-->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="te">Vén y pregunta por nuestra <strong>Educación 360ª</strong></p>
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <p>Indicación individual</p>
+                </div>
+                <div class="footer-column">
+                    <p>Suministro candidatario</p>
+                </div>
+                <div class="footer-column">
+                    <p>Información del archivo</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
